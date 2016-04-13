@@ -19,12 +19,13 @@ even influence another language.
 
 Once you have picked a language to study -- Java, JavaScript, Python,
 or Scala -- find a reasonably substantial change proposal for that
-language and choose that as your paper topic. This change proposal may
-be currently in a proposed state, or it may now be rejected, accepted,
-or implemented. You may find it most straightforward to write about
-accepted proposals that are now implemented. However, rejected
-proposals may be of especial interest if the language later returned
-to that proposed idea, but in some other way.
+language and choose that as your presentation topic. This change
+proposal may be currently in a proposed state, or it may now be
+rejected, accepted, or implemented. You may find it most
+straightforward to write about accepted proposals that are now
+implemented. However, rejected proposals may be of especial interest
+if the language later returned to that proposed idea, but in some
+other way.
 
 Change proposals will be in the form of a PEP, SIP, JEP, JSR, or
 similar document. You may want consider subsequent proposals that cite
@@ -57,11 +58,11 @@ characteristics:
 * As usual, academic standards of plagiarism and attribution do apply.
 
 When citing evidence, you should look for authority over form. For
-this paper, blog posts and their comments, emails in mailing lists,
-and Q&A in StackOverflow-type sites are valid primary sources, even if
-informal, along with articles and books. What matters here is the
-content of the discussion and where it went. Consider carefully the
-author of the source, and its centrality, in the conversation. In
+your presentation, blog posts and their comments, emails in mailing
+lists, and Q&A in StackOverflow-type sites are valid primary sources,
+even if informal, along with articles and books. What matters here is
+the content of the discussion and where it went. Consider carefully
+the author of the source, and its centrality, in the conversation. In
 addition, do filter out noise and irrelevance. Careful selection and
 presentation are important parts of what we will evaluate.
 
@@ -79,8 +80,8 @@ language (`java`, `javascript`, `python`, `scala`):
         return x * 2
     ````
 
-Under no circumstances should you embed code samples in your paper or
-your presentation **as an image**! (This admonition is based on previous
+Under no circumstances should you embed code samples in your
+presentation **as an image**! (This admonition is based on previous
 experience. But seriously it's so much easier to do it the right
 way...)
 
@@ -101,12 +102,13 @@ Distill your inquiry into your topic to something to present to the
 class in a five minute slot:
 
 * 20 unique slides, spaced *exactly* 15 seconds apart, for a total of
-  5 minutes.
+  5 minutes. The Adobe PDF viewer can perform this autoplay, and we
+  be using this feature in clas.
 
-* This is a programming languages class, so show and talk about
-  code! You want to find a good balance between describing a concept
-  abstractly and demonstrating specific code usage in the language
-  you're writing about in your paper.
+* This is a class about programming languages, so do show and talk
+  about code! You want to find a good balance between describing a
+  concept abstractly and demonstrating specific code usage in the
+  language you're discussing.
 
 * Slides must be written in Markdown, however, they can embed other
   media or use embedded Latex, much like the lecture notes do.
@@ -114,9 +116,10 @@ class in a five minute slot:
 * Presentation is a PDF file generated via Beamer and pandoc; see the
   below section.
 
-* Everyone on the team must be part of the presentation.
+* Everyone on the team must be part of the presentation. Talk to an
+  instructor if this is a problem.
 
-This style we are requiring for this presentation is actually closest
+The style we are requiring for this presentation is actually closest
 to the Ignite format, vs a typical conference lightning talk. I
 recommend this [blog post][presenting-for-ignite] as a good start: it
 walks you through the process of going from a storyboard to a finished
@@ -145,12 +148,6 @@ $ ./generate talk.md
 ````
 
 will produce `talk.pdf`.
-
-You can also generate a PDF for your paper if you want:
-
-````bash
-$ ./generate --format=paper paper.md
-````
 
 # Installing `pandoc` on Ubuntu
 
