@@ -3,51 +3,104 @@
 Copy the [`sample-talk`](sample-talk) directory to a directory at the
 same level, but one that uses your presentation group name. So for
 example if your group name is "Perils of Python", you should create a
-directory `perils-of-python`. Use git add and git commit to commit any
-files in this directory, and submit a GitHub pull request so it can be
-merged in with this repo.
-
-# Presentation schedule
-
-* Talks the week of FIXME during lecture or recitation.
-
-* Link to presentation on YouTube due on FIXME
-
-* Signups
+directory `perils-of-python`. Use `git add` and `git commit` to commit
+any files in this directory, and submit a GitHub pull request so it
+can be merged in with this repo.
 
 # Choosing a topic
 
-Successful programming languages tend to evolve over time, especially
-in the context of their community. Some languages use standards
-committees to represent this community; others use more informal
-processes. Either way, any potential evolution is frequently
+In your lightning talk you will present on how a specific concrete
+language feature -- syntax and corresponding semantics -- is added
+to a given language.
+
+Consider the context. Successful programming languages tend to evolve
+over time, especially as part of their overall developer
+community. Some languages use standards committees to represent this
+community; others use more informal processes, such as mailing lists
+and issue trackers. Either way, any potential evolution is frequently
 encapsulated into a change proposal, which the community can evaluate,
 discuss, and further enhance. Frequently the change proposal is
 rejected outright, but sometimes it may live on in some other way, or
 even influence another language.
 
-Once you have picked a language to study -- Java, JavaScript, Python,
-or Scala -- find a reasonably substantial change proposal for that
-language and choose that as your presentation topic. This change
-proposal may be currently in a proposed state, or it may now be
-rejected, accepted, or implemented. You may find it most
+For the lightning talk pick a language from the set of Java,
+JavaScript, Python, or Scala. Restrict the change proposals to those
+that are proposed for one of the following versions:
+
+* Java 8 or Java 9
+* JavaScript, as defined by EcmaScript 6 or EcmaScript 7
+* Python 3.3, 3.4, or 3.5
+* Scala 2.10, 2.11, 2.12
+
+This change must be substantive; and it must reflect a change in both
+syntax and semantics of the language. For Scala, such syntax changes
+can of course be implemented by Scala's support of internal DSLs. What
+is substantive can perhaps be best illustrated by a counter example:
+"Floating point and octal literal syntax deprecation in Scala 2.10"
+is not a sufficiently substantive topic.
+
+This change proposal may be currently in a proposed state, or it may
+now be rejected, accepted, or implemented. You may find it most
 straightforward to write about accepted proposals that are now
 implemented. However, rejected proposals may be of especial interest
 if the language later returned to that proposed idea, but in some
 other way.
 
-Change proposals will be in the form of a PEP, SIP, JEP, JSR, or
-similar document. You may want consider subsequent proposals that cite
-the proposal as part of the development of your theme. See below for
-resources.
+Change proposals may be in the form of a PEP, SIP, JEP, JSR, or
+similar document. You will want to also discuss primary sources like
+development mailing lists to find out about what was said about pros
+and cons. You may want consider subsequent proposals that cite the
+proposal as part of the development of your theme.
 
-And then what? You need to carefully consider the change proposal in
-terms of documenting its proposed impact to the language and its use.
+It's up to you what aspects of the syntax and semantics to present,
+but regardless describe using sample code and/or test cases. It's best
+to keep with the formalism of the change proposal itself, but if you
+want to elaborate using judgments and inference rules as motivated by
+the class, that can be a great apect of your talk.
+
+Your work is public and will be presented in class. All presentation
+material, including especially titles and other wording (and this
+includes all GitHub identifiers), should be acceptable for presentation
+at a professional conference.
+
+For the lightning talk mini-project, you will create the following
+aspects of your presentation:
+
+* A 5 minute, 20 slide talk on your topic to be given in
+  class/recitation; then posted publicly on YouTube, using a steady
+  camera and clear sound. In either case, slides will be advanced
+  every 15 seconds automatically. This means your lightning talk
+  follows an Ignite style presentation format.
+
+* Generate your slides using the Markdown markup language. A
+  template is provided in this repo.
+
+* Merging your work, via a pull request, in the corresponding GitHub
+  repo for the course. This merged work will contain the source for
+  the slides in your talk, including Markdown text, code samples, and
+  any images.
+
+Be creative and have fun!
+
+# Schedule
+
+Please note the revised dates:
+
+* Thursday April 14 at 6 pm - topics should be picked after
+  consultation with your TA
+
+* Monday April 18 at 6pm - pull requests are submitted against the
+  class repo with the contents of your presentation.
+
+* Week of April 18 - presented in class or during recitations
+
+* April 25 at 6pm - corresponding YouTube videos are posted by each
+  team
 
 # Creating your presentation
 
-Your team's presentation on this change proposal should exhibit the following
-characteristics:
+Your team's presentation on this change proposal should exhibit the
+following characteristics:
 
 * Apply the terminology and concepts we have used throughout the
   course. If language feature Baz supports higher-order functions, and
