@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Feel free to alter this script as desired to create the perfect PDF
+# for your presentation.
+
 from __future__ import print_function
 import argparse
 import os.path
@@ -23,7 +26,11 @@ def main():
             default=False,
             action="store_true",
             help="incremental display of lists")
-    parser.add_argument("source", help="Source markdown file")
+    parser.add_argument(
+        "source",
+        default="talk.md",
+        nargs="?",
+        help="Source markdown file, defaults to 'talk.md'")
     args = parser.parse_args()
     output = os.path.splitext(args.source)[0] + ".pdf" #".tex"
 
