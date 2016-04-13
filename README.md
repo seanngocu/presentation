@@ -1,3 +1,12 @@
+# Submitting your presentation
+
+Copy the [`sample-talk`](sample-talk) directory to a directory at the
+same level, but one that uses your presentation group name. So for
+example if your group name is "Perils of Python", you should create a
+directory `perils-of-python`. Use git add and git commit to commit any
+files in this directory, and submit a GitHub pull request so it can be
+merged in with this repo.
+
 # Presentation schedule
 
 * Talks the week of FIXME during lecture or recitation.
