@@ -74,12 +74,10 @@ MathJax, and it's a major missing feature for us at this time.)
 Use Markdown fences to demarcate code examples. Select the proper
 language (`java`, `javascript`, `python`, `scala`):
 
-~~~
-````python
-  def foo():
-    return 42
-````
-~~~
+  ````python
+    def foo():
+      return 42
+  ````
 
 Under no circumstances should you embed code samples in your paper or
 your presentation **as an image**! (This admonition is based on previous
