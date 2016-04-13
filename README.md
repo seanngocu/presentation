@@ -1,11 +1,20 @@
 # Submitting your presentation
 
-Copy the [`sample-talk`](sample-talk) directory to a directory at the
-same level, but one that uses your presentation group name. So for
-example if your group name is "Perils of Python", you should create a
-directory `perils-of-python`. Use `git add` and `git commit` to commit
-any files in this directory, and submit a GitHub pull request so it
-can be merged in with this repo.
+First, fork this repo in GitHub into your own account. You can choose
+to do additional collaboration with your team members, via branching,
+or other GitHub/git functionality -- that's up to you.
+
+Work on the repo. Start by copying the [`sample-talk`](sample-talk)
+directory to a directory at the same level, but one that uses your
+presentation group name. So for example if your group name is "Perils
+of Python", you should create a directory `perils-of-python`. Use `git
+add` and `git commit` to commit any files in this directory. We need
+different group directories so we can merge it one collective repo by
+the end.
+
+Lastly, submit a GitHub pull request so it can be merged in with this
+repo. You may need to push additional changes until you are completely
+finished -- or if we have further questions for you.
 
 # Choosing a topic
 
