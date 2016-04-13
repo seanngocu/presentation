@@ -84,9 +84,9 @@ your presentation **as an image**! (This admonition is based on previous
 experience. But seriously it's so much easier to do it the right
 way...)
 
-Use backticks (\') to quote a short code fragment. So for example,
+Use backticks (`` ` ``) to quote a short code fragment. So for example,
 here's the code fragment to show making a call to the above function:
-`f(42)`, which can be written like so inline `\'f(42)\'`.
+`f(42)`, which can be written like so inline `` `f(42)` ``.
 	
 Introduce long quotes with `>`. Use endnote style links: use
 `[text][optional-id-if-different]` in the text, followed by an endnote
