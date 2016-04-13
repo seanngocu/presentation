@@ -75,8 +75,8 @@ Use Markdown fences to demarcate code examples. Select the proper
 language (`java`, `javascript`, `python`, `scala`):
 
     ````python
-    def foo():
-        return 42
+    def f(x):
+        return x * 2
     ````
 
 Under no circumstances should you embed code samples in your paper or
@@ -84,8 +84,10 @@ your presentation **as an image**! (This admonition is based on previous
 experience. But seriously it's so much easier to do it the right
 way...)
 
-Use a backtick to mark a short fragment (under a line of code), `fragment`.
-
+Use backticks (\') to quote a short code fragment. So for example,
+here's the code fragment to show making a call to the above function:
+`f(42)`, which can be written like so inline `\'f(42)\'`.
+	
 Introduce long quotes with `>`. Use endnote style links: use
 `[text][optional-id-if-different]` in the text, followed by an endnote
 with corresponding link at the end.
