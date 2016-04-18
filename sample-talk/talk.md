@@ -36,92 +36,29 @@ def blah():
 *
 *
 
-# Sixth slide
+# Why Lanbda Expressions?
 
-*
-*
-*
+* Functional Programming
+* Simplified syntax for streamlined coding
 
-# Seventh slide
+# When to use Lanbda Expressions?
 
-*
-*
-*
+* The ability execute the code later in time
+* When the code could be used multiple times
 
-# Eight slide
+# Syntax
 
-*
-*
-*
+* Optional type declaration
+* Optional parenthesis around parameter
 
-# Nineth slide
+# Syntax
 
-*
-*
-*
+* Optional curly braces
+* Optional return keyword
 
-# Tenth slide
+# Example code
 
-*
-*
-*
-
-# 11th slide
-
-*
-*
-*
-
-# 12th slide
-
-*
-*
-*
-
-# 13th slide
-
-*
-*
-*
-
-# 14th slide
-
-*
-*
-*
-
-# 15th slide
-
-*
-*
-*
-
-# 16th slide
-
-*
-*
-*
-
-# 17th slide
-
-*
-*
-*
-
-# 18th slide
-
-*
-*
-*
-
-# 19th slide
-
-*
-*
-*
-
-# 20th slide
-
-*
-*
-*
+```java
+(String first, String second)
+     -> Integer.compare(first.length(), second.length())
+```	
