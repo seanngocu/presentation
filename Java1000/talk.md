@@ -136,7 +136,7 @@ public class Foo{
 * flexable modeling allows for easy coding
 
 
-# twentyth slide
+# References
 
 * http://www.drdobbs.com/jvm/lambda-expressions-in-java-8/240166764
 
