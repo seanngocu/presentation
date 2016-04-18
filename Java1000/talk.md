@@ -1,6 +1,9 @@
 # Java 1000
 
 * Introductions
+* Zane O'Brien
+* Brian Chung
+* Brandon Jacquez
 
 
 # Lambda Expressions
@@ -44,6 +47,14 @@ public class Foo{
 
 * Esentially it is a function without a declaration 
 * allows you to write the function in the same place you are using it
+
+
+# Lambda Expression Grammar
+
+* Arguments " () " - Optional argument section
+* Arrow Token " -> " 
+* Body " {} " - Contains either single expression or statement block (with return)
+
 
 # What is a Lambda expression?
 ```Java
@@ -98,7 +109,6 @@ public class Foo{
 ```
 
 
-
 * makes iterating through a list very easy
 
 
@@ -114,19 +124,11 @@ public class Foo{
 * Java 8 or higher
 
 
-# Lambda Expression Grammar
+# Why is Lambda expressions important
 
-* Arguments " () " - Optional argument section
-* Arrow Token " -> " 
-* Body " {} " - Contains either single expression or statement block (with return)
-
-
-# eighteenth slide
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* Implements Functional programming
+* Streamlines code
+* Allows for mutable code
 
 
 # Conclusion
