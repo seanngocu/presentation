@@ -53,45 +53,32 @@ public class Foo{
 
 * This is the format for Lambda expressions
 
+# Example code
 
-# Example of Lambda expressions
+```java
+(String first, String second)
+     -> Integer.compare(first.length(), second.length())
+```
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+# Why Lanbda Expressions?
 
+* Functional Programming
+* Simplified syntax for streamlined coding
 
-# Example of Lambda expressions
+# When to use Lambda Expressions?
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* The ability execute the code later in time
+* When the code could be used multiple times
 
+# Syntax
 
-# Example of Lambda expressions
+* Optional type declaration
+* Optional parenthesis around parameter
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+# Syntax
 
-
-# Impact of Lambda expressions
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
-
-
-# Effects of Lambda expressions
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* Optional curly braces
+* Optional return keyword
 
 
 # Effects of Lambda expressions
