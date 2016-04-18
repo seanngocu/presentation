@@ -114,12 +114,11 @@ public class Foo{
 * Java 8 or higher
 
 
-# seventeenth slide
+# Lambda Expression Grammar
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* Arguments " () " - Optional argument section
+* Arrow Token " -> " 
+* Body " {} " - Contains either single expression or statement block (with return)
 
 
 # eighteenth slide
