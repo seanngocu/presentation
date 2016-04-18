@@ -140,6 +140,8 @@ public class Foo{
 # References
 
 * http://www.drdobbs.com/jvm/lambda-expressions-in-java-8/240166764
+* http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html
+* https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
 
 
 
