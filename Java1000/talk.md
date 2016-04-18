@@ -80,12 +80,26 @@ public class Foo{
 * Optional return keyword
 
 
-# Effects of Lambda expressions
+# Convience of Lambda expressions
+```Java 
+	String[] nba = {"Kobe Bryant", "Lebron James", "Steph Curry", "Kevin Durant", "Klay Thompson"};
+	List<String> players =  Arrays.asList(nba);
+       
+	// Old looping
+	for (String player : players) {
+	    System.out.print(player + "; ");
+	}
+       
+	// Using lambda expression and functional operations
+	players.forEach((player) -> System.out.print(player + "; "));
+ 
+	// Using double colon operator in Java 8
+	players.forEach(System.out::println);
+```
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+
+
+* makes iterating through a list very easy
 
 
 # fifteenth slide
