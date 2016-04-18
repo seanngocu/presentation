@@ -35,7 +35,7 @@ public class Foo{
 
 ```Java
 	Foo F = new Foo()
-	F.Add
+	F.Add(4,5)
 ```
 * You would have to create an instance of the class to call the function
 
