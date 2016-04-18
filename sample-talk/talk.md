@@ -1,6 +1,7 @@
-# Talk
+# Lambda Expressions
+## By: Brian Chung, Zane O'Brien
 
-* Place your talk here
+* anonymous classes
 * Remember, no more than 20 slides
 * And exactly 15 seconds per slide
 * That gives you exactly 5 minutes for your talk!
@@ -23,4 +24,104 @@ def blah():
 * There are 17 more slides after this one
 * Good luck with your presentation!
 
+# Fourth slide
 
+*
+*
+*
+
+# Fifth slide
+
+*
+*
+*
+
+# Sixth slide
+
+*
+*
+*
+
+# Seventh slide
+
+*
+*
+*
+
+# Eight slide
+
+*
+*
+*
+
+# Nineth slide
+
+*
+*
+*
+
+# Tenth slide
+
+*
+*
+*
+
+# 11th slide
+
+*
+*
+*
+
+# 12th slide
+
+*
+*
+*
+
+# 13th slide
+
+*
+*
+*
+
+# 14th slide
+
+*
+*
+*
+
+# 15th slide
+
+*
+*
+*
+
+# 16th slide
+
+*
+*
+*
+
+# 17th slide
+
+*
+*
+*
+
+# 18th slide
+
+*
+*
+*
+
+# 19th slide
+
+*
+*
+*
+
+# 20th slide
+
+*
+*
+*
