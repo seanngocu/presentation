@@ -14,36 +14,32 @@
 * Cant have stand-alone functions
 
 
-# Third slide
+# Why Java needs Lambda expressions?
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* Allows Java to act like a functional programming language
+* CAN have stand alone functions
 
 
-# fourth slide
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
-
-
-# fifth slide
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+# Pre-Lambda expression
+```Java
+public class Foo{
+	public int Add(int a, int b){
+	return a + b
+	}
+}
+```
+* This is how you traditionally wrote functions in Java
 
 
-# sixth slide
+# Pre-Lambda expression 
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+```Java
+	Foo F = new Foo()
+	F.Add
+```
+* You would have to create an instance of the class to call the function
+
+ 
 # seventh slide
 
 * This is the third slide
