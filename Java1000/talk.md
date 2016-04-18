@@ -130,26 +130,15 @@ public class Foo{
 * 
 
 
-# ninetheenth slide
+# Conclusion
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* Functional Programming in Java
+* flexable modeling allows for easy coding
 
 
 # twentyth slide
 
-```python
-def blah():
-	"""The blah function demonstrates doc strings"""
-	return 42
-```
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* http://www.drdobbs.com/jvm/lambda-expressions-in-java-8/240166764
 
 
 
