@@ -40,7 +40,21 @@ public class Foo{
 * You would have to create an instance of the class to call the function
 
  
-# seventh slide
+# What is a Lambda epression?
+
+* Esentially it is a function without a declaration 
+* allows you to write the function in the same place you are using it
+
+# What is a Lambda expression?
+```Java
+// (arguments) -> {body} 
+}
+```
+
+* This is the format for Lambda expressions
+
+
+# Example of Lambda expressions
 
 * This is the third slide
 * There are 17 more slides after this one
@@ -48,7 +62,7 @@ public class Foo{
 * 
 
 
-# eighth slide
+# Example of Lambda expressions
 
 * This is the third slide
 * There are 17 more slides after this one
@@ -56,7 +70,7 @@ public class Foo{
 * 
 
 
-# nineth slide
+# Example of Lambda expressions
 
 * This is the third slide
 * There are 17 more slides after this one
@@ -64,7 +78,7 @@ public class Foo{
 * 
 
 
-# tenth slide
+# Impact of Lambda expressions
 
 * This is the third slide
 * There are 17 more slides after this one
@@ -72,7 +86,7 @@ public class Foo{
 * 
 
 
-# eleventh slide
+# Effects of Lambda expressions
 
 * This is the third slide
 * There are 17 more slides after this one
@@ -80,23 +94,7 @@ public class Foo{
 * 
 
 
-# twelfth slide
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
-
-
-# thirteenth slide
-
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
-
-
-# fourteenth slide
+# Effects of Lambda expressions
 
 * This is the third slide
 * There are 17 more slides after this one
