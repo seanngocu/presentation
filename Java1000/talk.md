@@ -3,7 +3,7 @@
 * Introductions
 
 
-# Lambda Expressons
+# Lambda Expressions
 
 * Part of Java 8
 
@@ -102,20 +102,16 @@ public class Foo{
 * makes iterating through a list very easy
 
 
-# fifteenth slide
+# Effects of Lambda expressions
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* Flexibility
+* Adaptability
 
 
-# sixteenth slide
+# Restrictions to Lambda expression
 
-* This is the third slide
-* There are 17 more slides after this one
-* Good luck with your presentation!
-* 
+* No more than one abstract method 
+* Java 8 or higher
 
 
 # seventeenth slide
