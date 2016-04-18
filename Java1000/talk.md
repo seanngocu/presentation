@@ -47,8 +47,7 @@ public class Foo{
 
 # What is a Lambda expression?
 ```Java
-// (arguments) -> {body} 
-}
+ (arguments) -> {body} 
 ```
 
 * This is the format for Lambda expressions
@@ -60,7 +59,7 @@ public class Foo{
      -> Integer.compare(first.length(), second.length())
 ```
 
-# Why Lanbda Expressions?
+# Why Lambda Expressions?
 
 * Functional Programming
 * Simplified syntax for streamlined coding
