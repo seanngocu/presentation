@@ -43,7 +43,7 @@ public class Foo{
 * You would have to create an instance of the class to call the function
 
  
-# What is a Lambda epression?
+# What is a Lambda expression?
 
 * Esentially it is a function without a declaration 
 * allows you to write the function in the same place you are using it
