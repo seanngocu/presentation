@@ -4,6 +4,7 @@
 * Zane O'Brien
 * Brian Chung
 * Brandon Jacquez
+* Sean Ngo
 
 
 # Lambda Expressions
@@ -14,7 +15,7 @@
 # Why Java needs Lambda expressions?
 
 * Objects are the base of Java
-* Cant have stand-alone functions
+* Can't have stand-alone functions
 
 
 # Why Java needs Lambda expressions?
@@ -46,7 +47,18 @@ public class Foo{
 # What is a Lambda epression?
 
 * Esentially it is a function without a declaration 
-* allows you to write the function in the same place you are using it
+* Allows you to write the function in the same place you are using it
+
+
+
+# What is a Lambda expression?
+```Java
+ (arguments) -> {body} 
+```
+
+* This is the format for Lambda expressions
+
+
 
 
 # Lambda Expression Grammar
@@ -56,12 +68,7 @@ public class Foo{
 * Body " {} " - Contains either single expression or statement block (with return)
 
 
-# What is a Lambda expression?
-```Java
- (arguments) -> {body} 
-```
 
-* This is the format for Lambda expressions
 
 # Example code
 
@@ -109,7 +116,7 @@ public class Foo{
 ```
 
 
-* makes iterating through a list very easy
+* Makes iterating through a list very easy
 
 
 # Effects of Lambda expressions
@@ -134,7 +141,7 @@ public class Foo{
 # Conclusion
 
 * Functional Programming in Java
-* flexable modeling allows for easy coding
+* Flexible modeling allows for easy coding
 
 
 # References
