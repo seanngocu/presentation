@@ -4,6 +4,7 @@
 * Zane O'Brien
 * Brian Chung
 * Brandon Jacquez
+* Sean Ngo
 
 
 # Lambda Expressions
@@ -46,7 +47,15 @@ public class Foo{
 # What is a Lambda epression?
 
 * Esentially it is a function without a declaration 
-* allows you to write the function in the same place you are using it
+* Allows you to write the function in the same place you are using it
+
+
+# What is a Lambda expression?
+```Java
+ (arguments) -> {body} 
+```
+
+* This is the format for Lambda expressions
 
 
 # Lambda Expression Grammar
@@ -134,7 +143,7 @@ public class Foo{
 # Conclusion
 
 * Functional Programming in Java
-* flexable modeling allows for easy coding
+* Flexable modeling allows for easy coding
 
 
 # References
